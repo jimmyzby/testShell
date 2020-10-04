@@ -7,4 +7,4 @@ date3=$(date +%Y%m%d)
 touch "${date1}${filename}"
 touch "${date2}${filename}"
 touch "${date3}${filename}"
-sh testShell1.sh
+source ./testShell1.sh
